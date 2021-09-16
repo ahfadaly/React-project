@@ -1,0 +1,56 @@
+.about-us{
+    background-color: #59AB6E;
+    color: #FFF;
+    height: 600px;
+}
+.about h3{
+    font-size: 40px;
+}
+/* ================================= */
+.about .services .shadow{
+    padding: 60px 0;
+    transition: 0.5s;
+}
+.about .services i{
+  color: #59AB6E;
+  font-size: 30px;
+}
+.about .services h5{
+    color: #666;
+    white-space: nowrap;
+    margin: 8px 0;
+}
+.about .services .shadow:hover{
+    background-color: #59AB6E;
+    color: #FFF;
+}
+.about .services .shadow:hover i,
+.about .services .shadow:hover h5{
+    color: #FFF;
+}
+/* ====================================== */
+.our-brands {
+    background-color:#E9EEF5;
+    padding: 50px;
+}
+.our-brands img{
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: transform .7s ease-in-out;
+}
+.our-brands img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+@media (max-width:991px) {
+    .about-desc{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+@media (max-width:767px) {
+    .about-us img{
+        width: 50%;
+
+    }
+}

@@ -1,0 +1,19 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2{
+    font-size: 40px !important;
+    font-weight: 200 !important;
+}
+h3{
+  font-size: 30px !important;
+  font-weight: 200 !important;
+}
+
+@media (max-width:767px) {
+  h2{
+    font-size: 30px !important;
+  }
+}

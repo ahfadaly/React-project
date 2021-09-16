@@ -1,0 +1,60 @@
+
+/* =============================================== carousel */
+.home-carousel{
+    background-color: #EFEFEF;
+    color: #FFF;
+}
+.caption-title{
+  bottom: 0;
+  top: 30%;
+  text-align: justify;
+}
+.caption-title h2{
+    color: #59AB6E;
+}
+.caption-title h2:hover{
+    text-decoration: underline;
+}
+.carousel-control-next i,
+.carousel-control-prev i{
+    color: #59ab6e !important;
+    font-size: 2.8em !important;
+}
+.carousel-indicators li{
+    background-color: #59ab6e !important;
+}
+
+/* =============================================== */
+.Categories h5{
+    margin-top: 20px;
+    font-weight: normal;
+}
+.Categories a{
+  color: #FFF;
+  text-decoration: none;
+  background-color: #59AB6E;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* =============================================== */
+.featured{
+  background-color: #E9EEF5;
+  padding: 50px;
+}
+.featured .featured-cont h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+@media (max-width:991px) {
+    .caption-title h2{
+        font-size: 30px !important;
+    }
+    .caption-title h5{
+        font-size: 14px;
+    }
+    .caption-title p{
+        font-size: 12px;
+    }
+}

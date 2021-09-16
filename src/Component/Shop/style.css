@@ -1,0 +1,26 @@
+
+.shop select{
+  appearance: none;
+}
+.shop .ul-list li{
+    padding: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.shop .ul-list li:hover{
+    color: #59AB6E;
+    font-weight: bold;
+}
+.collapse-itme button i{
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+.collapse-itme button:focus{
+    text-decoration: none;
+}
+.collapse-itme button:hover{
+    text-decoration: none !important;
+}
+
+/* shop-item ============================= */

@@ -1,0 +1,24 @@
+.social{
+    background-color:#212934 ;
+    padding: 10px 0 15px; 
+    color: #FFF;
+}
+.social-info span{
+   font-size: 13px;
+   color: #cfd6e1 !important;
+   padding: 0 10px
+}
+.social-info span a{
+    color: #cfd6e1 !important;
+}
+
+.social-info:last-child a{
+    color: #cfd6e1 !important;
+    padding: 0 10px;
+    font-size: 10px;
+}
+/* @media (max-width:575px) {
+    .social-info span{
+        font-size: 10px;
+    }
+} */
