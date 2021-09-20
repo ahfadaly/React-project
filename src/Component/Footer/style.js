@@ -8,9 +8,6 @@ export const SectionHome = styled.div`
 export const SocialLink = styled.a`
     text-decoration: none;
     margin: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: 0.5s;
     color: #FFF;
       &:hover{

@@ -7,7 +7,7 @@
     font-size: 40px;
 }
 /* ================================= */
-.about .services .shadow{
+.about .services .desc{
     padding: 60px 0;
     transition: 0.5s;
 }
@@ -20,12 +20,12 @@
     white-space: nowrap;
     margin: 8px 0;
 }
-.about .services .shadow:hover{
+.about .services .desc:hover{
     background-color: #59AB6E;
     color: #FFF;
 }
-.about .services .shadow:hover i,
-.about .services .shadow:hover h5{
+.about .services .desc:hover i,
+.about .services .desc:hover h5{
     color: #FFF;
 }
 /* ====================================== */

@@ -28,7 +28,6 @@ const Footer = () => {
                  </div>
             </Copyright>
         </div>
-        
     )
 }
 export default Footer ;

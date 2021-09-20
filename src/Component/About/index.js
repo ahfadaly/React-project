@@ -11,8 +11,8 @@ const About = () => {
 
     const imgasbrands = images.map( (imgeItem) =>{
     return(
-        <div className="col-lg-3 col-md-6 mb-3" key={imgeItem.id}>
-             <img src={imgeItem.img} alt="" className=" img-fluid w-50" />
+        <div className="col-lg-3 col-sm-6 col-6 mb-3" key={imgeItem.id}>
+             <img src={imgeItem.img} alt="" className="img-fluid w-50" />
         </div>
       )
     })
@@ -41,28 +41,28 @@ const About = () => {
                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem <br/> ipsum dolor sit amet.</p>
                  <div className="row wow fadeInUp"  data-wow-delay="0.6s">
                      <div className="col-lg-3 col-md-6">
-                         <div className="shadow">
+                         <div className="shadow-sm border desc">
                             <i className="fa fa-truck fa-lg"></i>
                             <h5>Delivery Services</h5>
                          </div>
                      </div>
 
                      <div className="col-lg-3 col-md-6">
-                         <div className="shadow">
+                         <div className="shadow-sm border desc">
                             <i className="fas fa-exchange-alt"></i>
                             <h5>Shipping & Return</h5>
                          </div>
                      </div>
 
                      <div className="col-lg-3 col-md-6">
-                         <div className="shadow">
+                         <div className="shadow-sm border desc">
                             <i className="fa fa-percent"></i>
                             <h5>Promotion</h5>
                          </div>
                      </div>
 
                      <div className="col-lg-3 col-md-6">
-                         <div className="shadow">
+                         <div className="shadow-sm border desc">
                             <i className="fa fa-user"></i>
                             <h5>24 Hours Service</h5>
                          </div>
